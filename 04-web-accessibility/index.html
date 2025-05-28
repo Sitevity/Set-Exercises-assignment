@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessible Web Page Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Accessible Demo</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#content">Skip to content</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content" tabindex="-1">
+    <section>
+      <h2>Accessible Section</h2>
+      <img src="profile.jpg" alt="Portrait of the site author" />
+      <button aria-label="Open menu">☰</button>
+      <p>This page is designed with accessibility in mind.</p>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>All images have alt text, and navigation is keyboard-accessible.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Accessible Demo</p>
+  </footer>
+</body>
+</html>
