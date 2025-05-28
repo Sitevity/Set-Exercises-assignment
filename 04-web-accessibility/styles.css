@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header, footer {
+  background: #2a72d4;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+a:focus, button:focus {
+  outline: 2px solid #ff9800;
+  outline-offset: 2px;
+}
